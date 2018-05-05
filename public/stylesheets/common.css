@@ -594,7 +594,7 @@ body.dark #clinput input {
 }
 #site_title {
   width: 130px;
-  font-size: 30px;
+  font-size: 28px;
   display: block;
   margin-bottom: 3px;
   color: #555;
@@ -604,6 +604,18 @@ body.dark #clinput input {
 }
 #site_title:hover {
   opacity: 1;
+}
+#site_title .logo {
+  vertical-align: middle;
+  margin: -6px -2px 0 0;
+  width: 43px;
+  height: 43px;
+}
+#site_title .logo path {
+  fill: #444;
+}
+body.dark #site_title .logo path {
+  fill: #bbb;
 }
 #site_title span.extension {
   opacity: 0.7;
